@@ -67,9 +67,14 @@ body{
 #reset{
     color:blue;
 }
-@media (min-width: 768px) and (orientation: portrait){
+@media (max-width: 768px) and (orientation: portrait){
     .counter_buttons{
         display: flex;
         flex-direction:column;
     }
+    .counter_display{
+        margin-top:5rem;
+        max-widht:85%;
+    }
+    
 }
